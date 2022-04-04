@@ -17,6 +17,22 @@
     "composer/xdebug-handler": {
         "version": "3.0.3"
     },
+    "debril/feed-io": {
+        "version": "v4.9.12"
+    },
+    "debril/rss-atom-bundle": {
+        "version": "5.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "4.0",
+            "ref": "2c23ed747eda9f4c13f5e7eb55fffa1091fdd505"
+        },
+        "files": [
+            "config/packages/rss_atom.yaml",
+            "config/routes/rss_atom.yaml"
+        ]
+    },
     "dnoegel/php-xdg-base-dir": {
         "version": "v0.1.1"
     },
@@ -117,6 +133,15 @@
             ".php-cs-fixer.dist.php"
         ]
     },
+    "guzzlehttp/guzzle": {
+        "version": "7.4.2"
+    },
+    "guzzlehttp/promises": {
+        "version": "1.5.1"
+    },
+    "guzzlehttp/psr7": {
+        "version": "2.2.1"
+    },
     "netresearch/jsonmapper": {
         "version": "v4.0.0"
     },
@@ -144,8 +169,20 @@
     "psr/container": {
         "version": "1.1.2"
     },
+    "psr/http-client": {
+        "version": "1.0.1"
+    },
+    "psr/http-factory": {
+        "version": "1.0.1"
+    },
+    "psr/http-message": {
+        "version": "1.0.1"
+    },
     "psr/log": {
         "version": "2.0.0"
+    },
+    "ralouphie/getallheaders": {
+        "version": "3.0.3"
     },
     "sebastian/diff": {
         "version": "4.0.4"
